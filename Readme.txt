@@ -28,7 +28,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # install all the dependencies 
-pip install openxyl request 
+pip install openpyxl request pandas streamlit
 
 #Run the code 
 1. python data_ingest.py # will craete a db 
